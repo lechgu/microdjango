@@ -292,7 +292,7 @@ The default route remains, but there is a new one which allows passing width and
 Try it on:
 
 ```
-http://localhost:8000/1200/1024
+http://localhost:8000/generate/1200/1024
 ```
 
 The large the dimensions are, the longer it takes to compute the image. But, thanks to the efficiency of numpy, it should not be too bad.
