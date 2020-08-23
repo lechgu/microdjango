@@ -47,7 +47,7 @@ def index(request, width=800, height=600):
 
 urlpatterns = [path("", index), path("generate/<int:width>/<int:height>", index)]
 
-settings.configure(ROOT_URLCONF=__name__, ALLOWED_HOSTS=["*"], DEBUG=True)
+settings.configure(ROOT_URLCONF=__name__, ALLOWED_HOSTS=["*"])
 
 
 app = get_wsgi_application()
