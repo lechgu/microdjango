@@ -10,5 +10,6 @@ COPY . /app/
 RUN pip install -r requirements.txt && \
     chmod +x /app/boot.sh
 
+ENV PORT=80
 
 CMD [ "/app/boot.sh" ]
